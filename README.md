@@ -151,7 +151,7 @@ init_connect='SET collation_connection = utf8_unicode_ci'
 init_connect='SET NAMES utf8'
 character-set-server=utf8
 collation-server=utf8_unicode_ci
-# 处理连接数据库🈵问题
+# 处理连接数据库慢问题
 skip-character-set-client-handshake
 skip-name-resolve # 跳过域名解析
 ```
